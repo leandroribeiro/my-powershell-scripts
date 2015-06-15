@@ -1,5 +1,10 @@
 <#
-Put this on %HOMEPATH%/Documents\WindowsPowerShell/
+Steps:
+
+  1. http://www.hanselman.com/blog/TowardsABetterConsolePSReadLineForPowerShellCommandLineEditing.aspx
+  2. http://markembling.info/2009/09/my-ideal-powershell-prompt-with-git-integration
+  3. Put this file in %HOMEPATH%/Documents\WindowsPowerShell/
+  
 #>
 
 Write-Host "Seja bem-vindo MESTRE, eu sou Jarvis =8]"
