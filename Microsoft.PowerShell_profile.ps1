@@ -1,7 +1,12 @@
 <#
-Steps:
 
+  STEPS:
+
+  0. Put ;%ProgramFiles(x86)%\Git\cmd OR ;%ProgramFiles%\Git\cmd in YOUR PATH SETTINGS;
+  
+  FOLLOW THOSE INSTRUCTIONS BELOW:
   1. http://www.hanselman.com/blog/TowardsABetterConsolePSReadLineForPowerShellCommandLineEditing.aspx
+  2. http://www.hanselman.com/blog/PromptsAndDirectoriesEvenBetterGitAndMercurialWithPowerShell.aspx
   2. http://markembling.info/2009/09/my-ideal-powershell-prompt-with-git-integration
   3. Put this file in %HOMEPATH%/Documents\WindowsPowerShell/
   
@@ -13,6 +18,8 @@ Write-Host ""
 Import-Module PsGet
 Import-Module PSReadLine
 Import-Module posh-git
+
+Set-PSReadlineOption -EditMode Emacs
 
 Set-Alias subl "C:\Program Files\Sublime Text 3\sublime_text.exe"
 
