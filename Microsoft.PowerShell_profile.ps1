@@ -20,8 +20,14 @@ Import-Module PSReadLine
 Import-Module posh-git
 
 Set-Alias go-sublime "C:\Program Files\Sublime Text 3\sublime_text.exe"
+Set-Alias sublime "C:\Program Files\Sublime Text 3\sublime_text.exe"
+
 Set-Alias go-mu "C:\Program Files (x86)\muCommander\muCommander.exe"
+
 Set-Alias go-kee "c:\Tools\KeePass\KeePass.exe"
+Set-Alias keepass "c:\Tools\KeePass\KeePass.exe"
+
+Set-Alias sdelete "c:\Tools\SDelete\sdelete.exe"
 
 function go-projetos
 {
