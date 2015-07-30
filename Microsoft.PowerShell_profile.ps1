@@ -12,8 +12,12 @@
   
 #>
 
+
 Write-Host "Seja bem-vindo MESTRE, eu sou Jarvis =8]"
 Write-Host ""
+
+# Set GIT Path
+$env:Path = $env:Path + ";C:\Program Files (x86)\Git\cmd"
 
 Import-Module PsGet
 Import-Module PSReadLine
